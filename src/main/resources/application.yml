@@ -8,7 +8,10 @@ spring:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
       ddl-auto: update
-
+  security:
+    user:
+      name: sameera
+      password: 1234
   application:
     name: DockBucket
 server:
